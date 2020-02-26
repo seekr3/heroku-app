@@ -1,6 +1,14 @@
 {
   "name": "node-app",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "commit": "git pull && git add . && git commit -am auto && git push"
+  }
 }
