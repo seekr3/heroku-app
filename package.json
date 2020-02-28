@@ -16,7 +16,7 @@
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
-    "start": "next start -p $PORT",
+    "start": "node index",
     "dev": "next",
     "build": "next build",
     "export": "npm run build && next export",
