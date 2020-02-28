@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "netlify-cms-app": "^2.11.25",
     "next": "^9.2.2",
     "postcss-simple-vars": "^5.0.2",
     "precss": "^4.0.0",
@@ -15,10 +16,10 @@
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production next build && NODE_ENV=production node index",
-    "dev": "node index",
+    "start": "npm run build && next start",
+    "dev": "next",
     "build": "next build",
-    "export": "next build && next export",
+    "export": "npm run build && next export",
     "commit": "git pull && git add . && git commit -am auto && git push",
     "clean": "rm -r .next && rm -r out"
   }
