@@ -15,8 +15,7 @@
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
-    "start": "node index",
-    "build": "NODE_ENV=production next build",
+    "start": "next build && node index",
     "dev": "next",
     "export": "npm run build && next export",
     "commit": "git pull && git add . && git commit -am auto && git push",
