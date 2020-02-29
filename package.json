@@ -14,9 +14,6 @@
     "styled-jsx-plugin-postcss": "^2.0.1",
     "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {
-    "eslint": "^6.8.0"
-  },
   "scripts": {
     "start": "node index",
     "build": "next build",
