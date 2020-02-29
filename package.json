@@ -14,10 +14,11 @@
     "styled-jsx-plugin-postcss": "^2.0.1",
     "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
   "scripts": {
-    "start": "next build && node index",
-    "build": "next build",
+    "start": "node index",
     "dev": "next",
     "export": "npm run build && next export",
     "commit": "git pull && git add . && git commit -am auto && git push",
