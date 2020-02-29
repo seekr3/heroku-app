@@ -1,6 +1,6 @@
 {
   "name": "node-app",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -21,5 +21,8 @@
     "export": "npm run build && next export",
     "commit": "git pull && git add . && git commit -am auto && git push",
     "clean": "rm -r .next && rm -r out"
+  },
+  "engines": {
+    "node": "13.x"
   }
 }
